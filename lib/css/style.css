@@ -1,0 +1,201 @@
+@import url("boilerplate.css");
+
+h1 {
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+	font-size: 40px;
+}
+
+table a, table a:visited {
+	color: #358baf;
+}
+
+table a:hover {
+	color: #40b0de;
+}
+
+body {
+	font-family: "Helvetica Nueue",Helvetica,Arial,sans-serif;
+	color: #3a3a3a;
+	background: #f2fafc url(../images/bg.png);
+}
+
+body > .container {
+	width: 960px;
+	margin: 0px auto;
+	margin-top: 100px;
+}
+
+header {
+	margin-bottom: 25px;
+}
+
+header h1 {
+	padding-left: 70px;
+	background: transparent url(../images/logo.header.png) 0 10px no-repeat;
+	min-height: px;
+	float: left;
+}
+
+header nav {
+	float: right;
+	margin-top: 5px;
+}
+
+header nav h2 {
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #9a9a9a;
+}
+
+header nav ul, header nav ul li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+header nav ul {
+	margin-top: 5px;
+}
+
+header nav ul li {
+	margin-right: 5px;
+}
+
+header nav ul li:last-child {
+	margin-right: 0;
+}
+
+.content {
+	background-color: #fff;
+	border: 1px solid #E5E5E5;
+}
+
+.content table {
+	width: 100%;
+}
+
+.content table col.client {
+	width: 115px;
+}
+
+.content table col.project {
+	width: 115px;
+}
+
+.content table col.task {
+	width: 428px;
+}
+
+.content table col.priority {
+	width: 80px;
+}
+
+.content table col.deadline {
+	width: 100px;
+}
+
+.content table col.budget {
+	width: 80px;
+}
+
+.content table thead tr th {
+	text-align: left;
+	background-color: #f1f1f1;
+}
+
+.content table thead tr th, .content table tbody tr td {
+	padding: 10px 20px;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.content table tbody tr:nth-child(even) {
+	background: #f7f7f7;
+}
+
+a.btn, nav ul li a, nav ul li a:visited {
+	background: rgba(64, 176, 222, 0.7);
+	font-weight: bold;
+	color: #ffffff;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	text-decoration:none;
+	text-shadow: 1px 1px 1px #54a9cb;
+	display: inline-block;
+	width: auto;
+	
+	border: none;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+	-webkit-transition: background-color 0.2s linear;
+	-moz-transition: background-color 0.2s linear;
+	-o-transition: background-color 0.2s linear;
+	transition: background-color 0.2s linear;
+}
+
+a.btn:hover, nav ul li a:hover {
+	color: #fff;
+	background: rgba(64, 176, 222, 1);
+}
+
+footer {
+	margin-top: 25px;
+	color: #9a9a9a;
+	font-size: 11px;
+}
+
+footer a.logo {
+	display: inline-block;
+	width: 100px;
+	height: 21px;
+	background: transparent url(../images/logo.footer.png) no-repeat;
+	float: right;
+	position: relative;
+	top: -10px;
+}
+
+span.status {
+	text-transform: uppercase;
+	font-size: 10px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 5px 10px;
+}
+
+span.status.normal {
+	background-color: green;
+	color: #fff;
+}
+
+span.status.urgent {
+	background-color: red;
+	color: #fff;
+}
+
+span.status.high {
+	background-color: yellow;
+}
+
+table td p {
+	margin-bottom: 10px;
+}
+
+span.date {
+	display: block;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #9a9a9a;
+}
+
+blockquote {
+	font-style: italic;
+	margin-left: 20px;
+	color: #5a5a5a;
+}
+
+::-moz-selection{ background: #b2e9ff; color:#fff; text-shadow: none; }
+::selection { background:#b2e9ff; color:#fff; text-shadow: none; } 
