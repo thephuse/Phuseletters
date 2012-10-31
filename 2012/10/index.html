@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Your Message Subject or Title</title>
+	<style type="text/css">
+		/* Based on The MailChimp Reset INLINE: Yes. */  
+		/* Client-specific Styles */
+		#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;} 
+		/* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/ 
+		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+		/* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */ 
+		#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+		/* End reset */
+
+		/* Some sensible defaults for images
+		Bring inline: Yes. */
+		img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+		a img {border:none;} 
+		.image_fix {display:block;}
+
+		/* Yahoo paragraph fix
+		Bring inline: Yes. */
+		p {margin: 1em 0;}
+
+		/* Hotmail header color reset
+		Bring inline: Yes. */
+		h1, h2, h3, h4, h5, h6 {color: #767676 !important;}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+
+		h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+		color: red !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+		color: purple !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		/* Outlook 07, 10 Padding issue fix
+		Bring inline: No.*/
+		table td {border-collapse: collapse;}
+
+	    /* Remove spacing around Outlook 07, 10 tables
+	    Bring inline: Yes */
+    	table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+		/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+		Bring inline: Yes. */
+		a {color: orange;}
+
+		#header {border-left: 1px solid transparent;}
+
+		#numbers td img {vertical-align: bottom;}
+
+		#footer {border-bottom: 1px solid #2f2f2f;}
+
+		.bordered {border-left: 1px solid #2f2f2f; border-right: 1px solid #2f2f2f;}
+
+		.images {padding-bottom: 30px}
+
+		h1 {
+			color: #767676;
+			font-family: "Georgia", "Times New Roman", Times, serif;
+			font-size: 14px;
+			line-height: 23px;
+			margin:0;
+			padding: 0;
+		}
+
+		p {
+			font-family: "Georgia", "Times New Roman", Times, serif;
+			font-size: 14px;
+			color: #767676;
+			line-height: 23px;
+			margin-bottom: 30px;
+			margin-top: 0;
+		}
+
+		@media only screen and (max-device-width: 480px) {
+			/* Part one of controlling phone number linking for mobile. */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+
+		}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		/* You guessed it, ipad (tablets, smaller screens, etc) */
+			/* repeating for the ipad */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+		}
+
+
+	</style>
+
+</head>
+<body>
+<!-- Wrapper/Container Table: Use a wrapper table to control the width and the background color consistently of your email. Use this approach instead of setting attributes on the body tag. -->
+<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" width="100%" bgcolor="3b3b3b">
+	<tr>
+		<td valign="top"> 
+		<!-- Tables are the most common way to format your email consistently. Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. Use nested tables as a way to space effectively in your message. -->v
+		<table cellpadding="0" cellspacing="0" border="0" align="center" id="header">
+			<tr>
+				<td width="609" height="86" valign="bottom"><img class="img_fix" src="images/header.jpg" style="vertical-align:bottom" height="86" alt="The October 2012 Phuseletter" /></td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" id="numbers" border="0" align="center" bgcolor="4b4b4b" class="bordered">
+			<tr>
+				<td width="212" valign="top"><img class="img_fix" src="images/new_projects.jpg" alt="8 New Projects" /></td>
+				<td width="166" valign="top"><img class="img_fix" src="images/hours_worked.jpg" alt="410 Hours Worked" /></td>
+				<td width="222" valign="top"><img class="img_fix" src="images/finished_projects.jpg" alt="4 Finished Projects" /></td>
+			</tr>
+		</table>
+
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered" >
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="533" valign="top" bgcolor="fafafa"><img class="img_fix" src="images/tape.jpg" alt="" /></td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">
+					<p>Boo!</p>
+					<p>I trust everyone had (or will have!) a spooky Halloween — we all dressed up in our costumes and James led us in a choreographed version of Gangnam Style. He knows all the words to every pop song, so he did a great impression (not to mention the killer moves).</p>
+					<p>In all seriousness, though, our growing team is meshing really well with each other, and not a week goes by where I’m not impressed by their work ethic and excellent communication skills.</p>
+					<p>What have we been working on, you ask? Here are a few previews, but remember you can always check our dribbble page for the most recent updates:</p>
+				</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered images" height="150">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa" valign="top"><a href="http://dribbble.com/shots/782841-Dashboard-functions"><img class="img_fix" src="images/dribble1.jpg" alt="" /></a></td>
+				<td width="22" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa" valign="top"><a href="http://dribbble.com/shots/782834-Subscribe-to-the-newsletter"><img class="img_fix" src="images/dribble2.jpg" alt="" /></a></td>
+				<td width="22" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa"  valign="top"><a href="http://dribbble.com/shots/782827-Create-New-Pool"><img class="img_fix" src="images/dribble3.jpg" alt="" /></a></td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">
+					<h1>Team News</h1>
+					<p>James, Matt and Tessa will be visiting Highgroove Studios in Atlanta from November 12 - 17 for some team training and collaboration. While we’re down there, The Phuse will be sponsoring the Hack Night, and James will be giving a tech talk on how designers and developers can unite in their work.</p>
+					<h1>A new payment method</h1>
+					<p>If you like working with us but hate going to the bank, your life just got easier. Last week we added Stripe credit card processing to our list of payment methods. (Note: we must, regrettably, add a 1.5% fee to all payments over $2,000.)</p>
+					<h1>Words with Friends</h1>
+					<p>Our growing team has been faithfully adding quality content to Circuits, so if you are lacking in reading material and like hearing about dev tricks and design techniques, check it out. </p>
+					<p>Matt wrote a new article on content strategy for UX Booth, too. It’s very practical.</p>
+					<p>For the most recent and up to date Phuse news, follow us on Twitter. Make sure to say hello!</p>
+				</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered images" height="150">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa" valign="top"><a href="http://thephuse.com/development/common-sass-pitfalls-and-how-to-avoid-them/"><img class="img_fix" src="images/blog1.jpg" alt="" /></a></td>
+				<td width="22" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa" valign="top"><a href="http://thephuse.com/design-and-usability/how-to-design-4-popular-button-styles/"><img class="img_fix" src="images/blog2.jpg" alt="" /></a></td>
+				<td width="22" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa"  valign="top"><a href="http://thephuse.com/development/custom-styling-for-select-menus/"><img class="img_fix" src="images/blog3.jpg" alt="" /></a></td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">
+					<p>Until next month&mdash;stay inspired, people!</p>
+					<p>The Phuse Team</p>
+				</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">
+					<img class="img_fix" src="images/signatures.png" alt="James, Matt, Jenna, Mitch, Tom, Jessica, Tessa, and Zander" />
+				</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered" height="50">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table class="bordered" id="footer" cellpadding="0" cellspacing="0" border="0" align="center" height="50">
+			<tr>
+				<td valign="top" width="600" bgcolor="4b4b4b">&nbsp;</td>
+			</tr>
+		</table>
+		
+		<!-- End example table -->
+
+		<!-- Yahoo Link color fix updated: Simply bring your link styling inline. -->
+		<a href="http://htmlemailboilerplate.com" target ="_blank" title="Styling Links" style="color: orange; text-decoration: none;">Coloring Links appropriately</a>
+
+		<!-- Gmail/Hotmail image display fix -->
+		<img class="image_fix" src="full path to image" alt="Your alt text" title="Your title text" width="x" height="x" />
+
+		<!-- Working with telephone numbers (including sms prompts).  Use the "mobile" class to style appropriately in desktop clients
+		versus mobile clients. -->
+		<span class="mobile_link">123-456-7890</span>
+
+		</td>
+	</tr>
+</table>  
+<!-- End of wrapper table -->
+</body>
+</html>
