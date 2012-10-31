@@ -70,7 +70,7 @@
 
 		#social tr {vertical-align: middle;}
 
-		#apology {
+		.message {
 			font-size: 13px;
 			font-family: "Helvetica", "Arial", sans-serif;
 			color: #BBBBBB;
@@ -78,8 +78,12 @@
 			text-align: center;
 		}
 
-		#apology a {
+		.message a {
 			color: #F34D4D;
+		}
+
+		#respond p {
+			margin-bottom: 0;
 		}
 
 		h1 {
@@ -146,7 +150,7 @@
 	<tr>
 		<td valign="top"> 
 		<!-- Tables are the most common way to format your email consistently. Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. Use nested tables as a way to space effectively in your message. -->
-		<table cellpadding="0" cellspacing="0" border="0" align="center" id="apology">
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="message">
 			<tr>
 				<td width="602" valign="top">Email not displaying properly? We swear it&rsquo;s not our fault - see how it&rsquo;s supposed to look <a href="http://phuseletter.thephuse.com/2012/10/">here</a></td>
 			</tr>
@@ -285,9 +289,9 @@
 			</tr>
 		</table>
 
-		<table width="600" border="0" cellpadding="0" style="margin: 40px auto; border-collapse: collapse; color: #92918f; font: 14px/20px 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;">
+		<table id="respond" width="600" border="0" cellpadding="0" style="margin: 40px auto 20px auto; border-collapse: collapse; color: #92918f; font: 14px/20px 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;">
 			<tr style="background: url(http://phuseletter.thephuse.com/2012/06/images/footer-top.png) no-repeat;"><td style="padding: 0 37px 10px 50px;">
-				<p style="color: #4C5358; font: 16px/20px 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif; padding-top: 30px; margin-top: 0; margin-bottom: 0;">
+				<p style="color: #4C5358; font: 16px/20px 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif; padding-top: 30px;">
 					<strong>Email us directly by replying to this email (even if it’s just to say hi!)</strong>
 				</p>
 			</td></tr>
@@ -298,6 +302,11 @@
 			</td></tr>
              <tr>
 				<td><img src="http://phuseletter.thephuse.com/2011/08/images/shadow.png" width="600px" height="72" alt="">
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="message">
+			<tr>
+				<td width="602" valign="top"> *|REWARDS|*</a></td>
 			</tr>
 		</table>
 
