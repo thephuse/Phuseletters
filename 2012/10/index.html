@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>The October 2012 Phuseletter</title>
+	<style type="text/css">
+		/* Based on The MailChimp Reset INLINE: Yes. */  
+		/* Client-specific Styles */
+		#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;} 
+		/* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/ 
+		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+		/* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */ 
+		#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+		/* End reset */
+
+		/* Some sensible defaults for images
+		Bring inline: Yes. */
+		img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+		a img {border:none;} 
+		.image_fix {display:block;}
+
+		/* Yahoo paragraph fix
+		Bring inline: Yes. */
+		p {margin: 1em 0;}
+
+		/* Hotmail header color reset
+		Bring inline: Yes. */
+		h1, h2, h3, h4, h5, h6 {color: #767676 !important;}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+
+		h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+		color: red !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+		color: purple !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		/* Outlook 07, 10 Padding issue fix
+		Bring inline: No.*/
+		table td {border-collapse: collapse;}
+
+	    /* Remove spacing around Outlook 07, 10 tables
+	    Bring inline: Yes */
+    	table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+		/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+		Bring inline: Yes. */
+		a {color: #F34D4D;}
+
+		#header {border-left: 1px solid transparent;}
+
+		#numbers td img {vertical-align: bottom;}
+
+		#footer {border-bottom: 1px solid #2f2f2f;}
+
+		.bordered {border-left: 1px solid #2f2f2f; border-right: 1px solid #2f2f2f;}
+
+		.images {padding-bottom: 30px}
+
+		#social a {
+			font-size: 13px;
+			font-family: "Helvetica", "Arial", sans-serif;
+			text-decoration: none;
+		}
+
+		#social tr {vertical-align: middle;}
+
+		.message {
+			font-size: 13px;
+			font-family: "Helvetica", "Arial", sans-serif;
+			color: #BBBBBB;
+			margin:15px auto;
+			text-align: center;
+		}
+
+		.message a {
+			color: #F34D4D;
+		}
+
+		#respond p {
+			margin-bottom: 0;
+		}
+
+		h1 {
+			color: #767676;
+			font-family: "Georgia", "Times New Roman", Times, serif;
+			font-size: 14px;
+			line-height: 23px;
+			margin:0;
+			padding: 0;
+		}
+
+		p {
+			font-family: "Georgia", "Times New Roman", Times, serif;
+			font-size: 14px;
+			color: #767676;
+			line-height: 23px;
+			margin-bottom: 30px;
+			margin-top: 0;
+		}
+
+		@media only screen and (max-device-width: 480px) {
+			/* Part one of controlling phone number linking for mobile. */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+
+		}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		/* You guessed it, ipad (tablets, smaller screens, etc) */
+			/* repeating for the ipad */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+		}
+
+
+	</style>
+
+</head>
+<body>
+<!-- Wrapper/Container Table: Use a wrapper table to control the width and the background color consistently of your email. Use this approach instead of setting attributes on the body tag. -->
+<table cellpadding="20" cellspacing="0" border="0" id="backgroundTable" width="100%" bgcolor="3b3b3b">
+	<tr>
+		<td valign="top"> 
+		<!-- Tables are the most common way to format your email consistently. Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. Use nested tables as a way to space effectively in your message. -->
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="message">
+			<tr>
+				<td width="602" valign="top">Email not displaying properly? We swear it&rsquo;s not our fault - see how it&rsquo;s supposed to look <a href="http://phuseletter.thephuse.com/2012/10/">here</a></td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" id="header">
+			<tr>
+				<td width="609" height="86" valign="bottom"><img class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/header.jpg" style="vertical-align:bottom" width="609" height="86" alt="The October 2012 Phuseletter" /></td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" id="numbers" border="0" align="center" bgcolor="4b4b4b" class="bordered">
+			<tr>
+				<td width="212" valign="top"><img height="238" width="212" class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/new_projects.jpg" alt="8 New Projects" /></td>
+				<td width="166" valign="top"><img height="238" width="166" class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/hours_worked.jpg" alt="410 Hours Worked" /></td>
+				<td width="222" valign="top"><img height="238" width="222" class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/finished_projects.jpg" alt="4 Finished Projects" /></td>
+			</tr>
+		</table>
+
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered" >
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="533" valign="top" bgcolor="fafafa"><img class="img_fix" width="533" height="59" src="http://phuseletter.thephuse.com/2012/10/images/tape.jpg" alt="" /></td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">
+					<p>Boo!</p>
+					<p>I trust everyone had (or will have!) a spooky Halloween — we all dressed up in our costumes and James led us in a choreographed version of Gangnam Style. He knows all the words to every pop song, so he did a great impression (not to mention the killer moves).</p>
+					<p>In all seriousness, though, our growing team is meshing really well with each other, and not a week goes by where I’m not impressed by their work ethic and excellent communication skills.</p>
+					<p>What have we been working on, you ask? Here are a few previews, but remember you can always check <a href="http://dribbble.com/thephuse">our dribbble page</a> for the most recent updates:</p>
+				</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered images" height="150">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa" valign="top"><a href="http://dribbble.com/shots/782841-Dashboard-functions"><img width="129" height="118" class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/dribble1.jpg" alt="" /></a></td>
+				<td width="22" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa" valign="top"><a href="http://dribbble.com/shots/782834-Subscribe-to-the-newsletter"><img width="129" height="118" class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/dribble2.jpg" alt="" /></a></td>
+				<td width="22" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa"  valign="top"><a href="http://dribbble.com/shots/782827-Create-New-Pool"><img width="129" height="118" class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/dribble3.jpg" alt="" /></a></td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">
+					<h1>Team News</h1>
+					<p>James, Matt and Tessa will be visiting Highgroove Studios in Atlanta from November 12 - 17 for some team training and collaboration. While we’re down there, The Phuse will be sponsoring the <a href="http://learn.highgroove.com/events/november-hack-night">Hack Night</a>, and James will be giving a tech talk on how designers and developers can unite in their work.</p>
+					<h1>A new payment method</h1>
+					<p>If you like working with us but hate going to the bank, your life just got easier. Last week we added <a href="https://stripe.com">Stripe</a> credit card processing to our list of payment methods. (Note: we must, regrettably, add a 1.5% fee to all payments over $2,000.)</p>
+					<h1>Words with Friends</h1>
+					<p>Our growing team has been faithfully adding quality content to <a href="http://thephuse.com/blog/">Circuits</a>, so if you are lacking in reading material and like hearing about dev tricks and design techniques, check it out. </p>
+					<p>Matt wrote a new <a href="http://www.uxbooth.com/articles/practical-content-strategy-part-1-roles-and-approaches/">article on content strategy</a> for UX Booth, too. It’s very practical.</p>
+					<p>For the most recent and up to date Phuse news, follow us on Twitter. Make sure to say hello!</p>
+				</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered images" height="150">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa" valign="top"><a href="http://thephuse.com/development/common-sass-pitfalls-and-how-to-avoid-them/"><img width="129" height="118" class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/blog1.jpg" alt="" /></a></td>
+				<td width="22" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa" valign="top"><a href="http://thephuse.com/design-and-usability/how-to-design-4-popular-button-styles/"><img width="129" height="118" class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/blog2.jpg" alt="" /></a></td>
+				<td width="22" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="129" bgcolor="fafafa"  valign="top"><a href="http://thephuse.com/development/custom-styling-for-select-menus/"><img width="129" height="118" class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/blog3.jpg" alt="" /></a></td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">
+					<p>Until next month&mdash;stay inspired, people!</p>
+					<p>The Phuse Team</p>
+				</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">
+					<img class="img_fix" src="http://phuseletter.thephuse.com/2012/10/images/signatures.png" width="301" height="76" alt="James, Matt, Jenna, Mitch, Tom, Jessica, Tessa, and Zander" />
+				</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="bordered" height="50">
+			<tr>
+				<td width="32" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="431" valign="top" bgcolor="fafafa">&nbsp;</td>
+				<td width="51" bgcolor="fafafa" valign="top">&nbsp;</td>
+				<td width="35" bgcolor="4b4b4b" valign="top">&nbsp;</td>
+			</tr>
+		</table>
+
+
+		<table class="bordered" id="footer" cellpadding="0" cellspacing="0" border="0" align="center" height="50">
+			<tr>
+				<td valign="top" width="600" bgcolor="4b4b4b">&nbsp;</td>
+			</tr>
+		</table>
+
+		<table bgcolor="#F7F8F9" style="background: #F7F8F9; border: 1px #E7E9EA; margin-top: 40px;" align="center" width="600">
+			<tr style="padding: 10px; vertical-align: middle;">
+			 <td width="33.3%" style="padding: 22px;">
+				<a href="https://twitter.com/#!/thephuse" style="font: 13px/20px 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif; text-decoration: none; color: #A4A9AD;"><img src="http://phuseletter.thephuse.com/2012/06/images/twitter.png" height="32" width="30" style="padding-right: 9px;"><strong style="vertical-align: 10px;">Follow on Twitter</strong></a>
+				</td>
+
+				<td width="33.3%" style="padding: 20px 20px 20px 15px; border-left: 1px solid #E7E9EA; border-right: 1px solid #E7E9EA;">
+					<a href="http://www.facebook.com/thephuse" style="font: 13px/20px 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif; text-decoration: none; color: #A4A9AD;"><img src="http://phuseletter.thephuse.com/2012/06/images/facebook.png" height="32" width="30" style="padding-right: 8px;"><strong style="vertical-align: 10px;">Add on Facebook</strong></a>
+				</td>
+
+				<td width="33.3%" style="padding: 20px 20px 20px 12px;">
+					<a href="http://dribbble.com/thephuse" style="font: 13px/20px 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif; text-decoration: none; color: #A4A9AD;"><img src="http://phuseletter.thephuse.com/2012/06/images/dribbble.png" height="32" width="30" style="padding-right: 8px;"><strong style="vertical-align: 10px;">Dunkin' on Dribbble</strong></a>
+				</td>
+			</tr>
+		</table>
+
+		<table id="respond" width="600" border="0" cellpadding="0" style="margin: 40px auto 20px auto; border-collapse: collapse; color: #92918f; font: 14px/20px 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;">
+			<tr style="background: url(http://phuseletter.thephuse.com/2012/06/images/footer-top.png) no-repeat;"><td style="padding: 0 37px 10px 50px;">
+				<p style="color: #4C5358; font: 16px/20px 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif; padding-top: 30px;">
+					<strong>Email us directly by replying to this email (even if it’s just to say hi!)</strong>
+				</p>
+			</td></tr>
+			<tr><td style="padding: 0 37px 10px 50px; background: url(http://phuseletter.thephuse.com/2012/06/images/footer-bg.png);">
+				<p style="color: #82898E; font: 13px/19px 'Helvetica Neue', Arial, sans-serif; margin-top: 0;">
+					If, however, you have grander plans (idea for a new project has been itching at your brain, perhaps?) I encourage you to go to <a href="https://phuse.wufoo.com/forms/project-questionnaire/" style="color: #6079b1;">this page</a> and fill out our project questionnaire. It’s targeted to help you get a grasp on the scope of your project, it only takes a few minutes, and you just might learn something valuable in the process.
+				</p>
+			</td></tr>
+             <tr>
+				<td><img src="http://phuseletter.thephuse.com/2011/08/images/shadow.png" width="600px" height="72" alt="">
+			</tr>
+		</table>
+		<table cellpadding="0" cellspacing="0" border="0" align="center" class="message">
+			<tr>
+				<td width="602" valign="top"> *|REWARDS|*</a></td>
+			</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+</table>  
+<!-- End of wrapper table -->
+</body>
+</html>
