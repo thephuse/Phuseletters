@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<!-- If you delete this meta tag, the ground will open and swallow you. -->
+<meta name="viewport" content="width=device-width">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Phuseletter</title>
+
+<style type="text/css">
+* {
+  margin:0;
+  padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif!important; }
+
+img {
+  max-width: 100%;
+  outline: none;
+  border: none;
+}
+.collapse {
+  margin:0;
+  padding:0;
+}
+body {
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust:none;
+  width: 100%!important;
+  height: 100%;
+  color: #777;
+}
+
+a {
+  color: #2476cf;
+  text-decoration: none;
+}
+
+table.body-wrap {
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.1;
+  color:#000;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 {
+  font-weight:normal;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+h1 strong {
+  display: block;
+}
+h2 {
+  font-weight:bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-weight:bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.collapse { margin:0!important;}
+
+p, ul, ol, blockquote {
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size:14px;
+  line-height:1.4;
+}
+p.lead { font-size:16px; }
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+blockquote, p.team {
+  margin-left: 0;
+  color: #7489a5;
+  font-style: italic;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
+  max-width: 600px!important;
+}
+
+.shadowed {
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+}
+
+.container table {
+  width: 100%!important;
+}
+
+.content {
+  background: #fff;
+  padding: 50px 8%;
+}
+
+
+#meta {
+  padding-top: 30px;
+  font-size: 12px;
+  color: #000;
+}
+
+#header {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+#header td {
+  font-size: 16px;
+  color: #000;
+}
+
+#main {
+  margin-bottom: 30px;
+}
+
+#hero {
+  background-color: #3e4042;
+  background-image: -moz-linear-gradient(bottom, #3e4042 0%, #677283 100%);
+  background-image: -o-linear-gradient(bottom, #3e4042 0%, #677283 100%);
+  background-image: -webkit-linear-gradient(bottom, #3e4042 0%, #677283 100%);
+  background-image: linear-gradient(bottom, #3e4042 0%, #677283 100%); 
+}
+
+#hero h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: white;
+}
+
+#hero p {
+  font-size: 16px;
+  color: white;
+  opacity: .48;
+}
+
+#social {
+  background-color: #f5f6f8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f6f8), to(#fffefe));
+  background-image: -webkit-linear-gradient(top, #f5f6f8, #fffefe);
+  background-image:    -moz-linear-gradient(top, #f5f6f8, #fffefe);
+  background-image:         linear-gradient(to bottom, #f5f6f8, #fffefe);
+  padding: 20px 8%;
+  -webkit-box-shadow: inset 0px 1px 3px  rgba(202,206,213,0.5);
+  box-shadow: inset 0px 1px 3px  rgba(202,206,213,0.5);
+}
+
+#social td {
+  text-align: center;
+}
+
+#footer {
+  margin-top: -8px;
+  margin-bottom: 20px;
+}
+
+#footer_head {
+  background-color: #ffffff;
+   background-image: url('images/footer_head.jpg');
+   background-repeat: repeat-y no-repeat;
+   padding: 25px 8% 15px 35px;
+}
+
+#footer_head h3 {
+  margin-bottom: 0;
+}
+
+#footer_body {
+  background-color: #ffffff;
+   background-image: url('images/footer_tile.jpg');
+   background-repeat: repeat-y no-repeat;
+   padding: 0 8% 0 35px;
+}
+
+.blogs {
+  margin-bottom: 1em;
+}
+
+.blogs + h2 {
+  margin-top: 2em;
+}
+
+.blogs h3 {
+  padding-top: 10px;
+}
+
+.blogs td {
+  margin-bottom: 15px;
+}
+
+.blogs img {
+  max-width: 75%;
+}
+
+.signature p {
+  margin-bottom: 7px;
+}
+
+.separator {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+/* -------------------------------------------
+    PHONE
+    For clients that support media queries.
+    Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+  a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+  div[class="column"] { width: auto!important; float:none!important;}
+
+  table.social div[class="column"] {
+    width:auto!important;
+  }
+
+}
+</style>
+
+</head>
+
+<body bgcolor="#d7dce3" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+
+<table class="body-wrap" align="center" width="100%" bgcolor="#d7dce3" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <!-- begin: EMAIL -->
+
+      <table id="meta" align="center" class="container" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="100%" align="center">Email not displaying correctly? <a href="*|ARCHIVE|*">View it in your browser.</a></td>
+        </tr>
+      </table><!-- #meta -->
+
+      <table id="header" align="center" class="container" cellpadding="0" cellspacing="0">
+        <tr>
+          <td>
+            <img src="http://gallery.mailchimp.com/f3c964da333bc05836b767d3a/images/phuseletter.png" alt="Phuseletter" width="128" height="23">
+          </td>
+          <td mc:edit="date" align="right">June <strong>2013</strong></td>
+        </tr>
+      </table><!-- #header -->
+
+      <table align="center" class="container shadowed" id="main" cellpadding="0" cellspacing="0">
+        <tr>
+
+          <td width="100%" class="content" id="hero">
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td valign="middle" width="60%" mc:edit="hero-text">
+                  <h1>It's a Phuser<br/><strong>Birthday Bonanza!</strong></h1>
+                  <p>Three members of our team turned yet another year older this month.</p>
+                </td>
+                <td valign="middle" align="right" width="40%">
+                  <img mc:edit="hero-img" src="images/banner2.png" alt="">
+                </td>
+              </tr>
+            </table>
+          </td><!-- #hero -->
+
+        </tr>
+        <tr>
+
+          <td width="100%" class="content">
+            <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+              <tr>
+                <td mc:edit="main-text">
+                  <h2>Hey Phusers,</h2>
+                  <p>
+                    This month has been a real treat. Not only did we have 3 birthdays at The Phuse (Flip, Jenna and James! Happy birthday, you’re all wonderful!), but we’ve had the pleasure of working on great projects, and getting busy to the point where we are actually looking for a new UI/UX designer to join the team!
+                  </p>
+                  <p><strong>
+                    Do you know a UI/UX designer who would be a good fit at The Phuse? Send them our way for an interview by emailing <a href="mailto:james@thephuse.com"> james@thephuse.com </a> with a link to their portfolio/Dribbble profile!
+                  </strong></p>
+                  <p>
+                    We’ve also taken to scheduling hack days once every 3 weeks (we were trying to do every other week, but were too busy!), and we are sending out notices about the hack day to clients 1 week in advance. If you want to be notified and were not included in the mailing list last month, let Matt know by emailing him at <a href="mailto:matt@thephuse.com"> matt@thephuse.com </a>.
+                  </p>
+
+                  <img align="center" class="separator" src="images/separator.gif">
+
+                  <h2>Circuits Blog</h2>
+                  <table mc:edit="blogs-text" class="blogs" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top" width="16%" style="padding-bottom:20px;"><img src="images/post1.png" alt=""></td>
+                      <td width="84%" style="padding-bottom:10px;">
+                        <h3><a href="http://thephuse.com/development/hosting-static-sites-on-github-for-beginners/">Hosting Static Sites on Github for Beginners</a></h3>
+                        <p>By Tessa</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" width="16%"><img src="images/post2.png" alt=""></td>
+                      <td width="84%">
+                       <h3><a href="http://thephuse.com/business/moso-conference-2013-highlights/">MoSo Conference 2013 Highlights</a></h3>
+                      <p>By Jenna</p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <img align="center" class="separator" src="images/separator.gif">
+
+                  <h2>Dribbble Shots</h2>
+                  <table mc:edit="dribbble-text" class="blogs" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top" width="16%" style="padding-bottom:20px;"><img src="images/shot1.png" alt=""></td>
+                      <td width="84%" style="padding-bottom:10px;">
+                        <h3><a href="http://dribbble.com/shots/1130358-Mobile-Menu">Mobile Menu</a></h3>
+                        <p>By Tom</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" width="16%" style="padding-bottom:10px;"><img src="images/shot2.png" alt=""></td>
+                      <td width="84%">
+                        <h3><a href="http://dribbble.com/shots/1130374-Profile-Update">Profile Update</a></h3>
+                        <p>By Nathan</p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <img align="center" class="separator" src="images/separator.gif">
+                  <div class="signature">
+                    <p>Finally, happy Canada Day to all our Canadian friends, and happy Independence Day to all of our American friends! Have a good one!</p>
+                    <p>All the best from your friends</p>
+                    <h2>The Phuse Team</h2>
+                    <p class="team">James, Matt, Jenna, Tom, Tessa, Alexandra, Nathan &amp; Flip</p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+
+          </td><!-- .content -->
+
+        </tr>
+        <tr>
+
+          <td width="100%" id="social" class="content">
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="33%" align="center">
+                  <a href="http://twitter.com/thephuse">
+                    <img width="30" height="31" src="http://gallery.mailchimp.com/9a8449791f91a990493820342/images/twitter.png" alt="Twitter">
+                  </a>
+                </td>
+                <td width="33%" align="center">
+                  <a href="http://facebook.com/thephuse">
+                    <img width="30" height="31" src="http://gallery.mailchimp.com/9a8449791f91a990493820342/images/facebook.png" alt="Facebook">
+                  </a>
+                </td>
+                <td width="33%" align="center">
+                  <a href="http://dribbble.com/thephuse">
+                    <img width="30" height="31" src="http://gallery.mailchimp.com/9a8449791f91a990493820342/images/dribbble.png" alt="Dribble">
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td><!-- #social -->
+
+        </tr>
+      </table>
+
+      <table class="tape container" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="100%" align="center"><img src="http://gallery.mailchimp.com/9a8449791f91a990493820342/images/tape.png"></td>
+        </tr>
+      </table>
+
+      <table class="container shadowed" id="footer" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="100%" mc:edit="footer-header" id="footer_head" background="http://gallery.mailchimp.com/f3c964da333bc05836b767d3a/images/footer_head.jpg">
+            <h3>Email us directly by responding to this email (even if it's just to say hi!)</h3>
+          </td>
+        </tr>
+        <tr>
+          <td width="100%" mc:edit="footer-body" id="footer_body" background="http://gallery.mailchimp.com/f3c964da333bc05836b767d3a/images/footer_tile.jpg">
+            <p>If, however, you have grander plans (idea for a new project has been itching at your brain, perhaps?) I encourage you to go to this page and fill out our <a href="http://thephuse.com/project-questionnaire/">project questionnaire</a>. It’s targeted to help you get a grasp on the scope of your project, it only takes a few minutes, and you just might learn something valuable in the process.</p>
+          </td>
+        </tr>
+      </table>
+
+      <!-- end: EMAIL -->
+    </td>
+  </tr>
+</table>
+</body>
+</html>
