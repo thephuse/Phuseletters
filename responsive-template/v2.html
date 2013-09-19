@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Phuseletter</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif!important;
+    }
+
+    body {
+      -webkit-font-smoothing:antialiased;
+      -webkit-text-size-adjust:none;
+      width: 100%!important;
+      height: 100%;
+    }
+
+    a {
+      color: #2476cf;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      line-height: 1.1;
+      color:#000;
+    }
+
+    h1 small,
+    h2 small,
+    h3 small,
+    h4 small,
+    h5 small,
+    h6 small {
+      font-size: 60%;
+      color: #6f6f6f;
+      line-height: 0;
+      text-transform: none;
+    }
+
+    h1 {
+      font-weight:normal;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    h1 strong {
+      display: block;
+    }
+
+    h2 {
+      font-weight:bold;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-weight:bold;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    p,
+    ul,
+    ol,
+    blockquote {
+      margin-bottom: 20px;
+      font-weight: normal;
+      font-size:14px;
+      line-height:1.4;
+    }
+
+    p.lead { font-size:16px; }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 20px;
+    }
+
+    blockquote, p.team {
+      margin-left: 0;
+      color: #7489a5;
+      font-style: italic;
+    }
+
+    /**
+    * @tab Body
+    * @section Body
+    * @style Body
+    */
+    body,
+    .body-wrap {
+      /*@editable*/ background-color:#d7dce3 !important;
+      /*@editable*/ color: #000000;
+    }
+
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 94%;
+      max-width: 600px;
+    }
+
+    .shadowed {
+      -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+      box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+    }
+
+    .padded {
+      padding: 20px;
+    }
+
+    .padded-left {
+      padding-left: 20px;
+    }
+
+    /**
+    * @tab Content
+    * @section Content
+    * @style Main Text
+    */
+    .text {
+      /*@editable*/ color: #777;
+    }
+
+    .separator {
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    .blogs {
+      margin-bottom: 20px;
+    }
+
+    .blogs h3 {
+      padding-top: 10px;
+    }
+
+    .blogs td {
+      margin-bottom: 15px;
+    }
+
+    #meta {
+      padding-top: 30px;
+      font-size: 12px;
+    }
+
+    #header {
+      padding-top: 30px;
+      padding-bottom: 25px;
+      font-size: 16px;
+    }
+
+    #main {
+      margin-bottom: 30px;
+    }
+
+    #hero {
+      background-color: #f7f8f9;
+      background-image: -moz-linear-gradient(#ffffff, #f7f8f9);
+      background-image: -o-linear-gradient(#ffffff, #f7f8f9);
+      background-image: -webkit-linear-gradient(#ffffff, #f7f8f9);
+      background-image: linear-gradient(#ffffff, #f7f8f9);
+      box-shadow: inset 0px -1px 2px rgba(202,206,213,0.5);
+    }
+
+    #content {
+      background: #ffffff;
+    }
+
+    #social {
+      background-color: #f5f6f8;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f6f8), to(#fffefe));
+      background-image: -webkit-linear-gradient(top, #f5f6f8, #fffefe);
+      background-image: -moz-linear-gradient(top, #f5f6f8, #fffefe);
+      background-image: linear-gradient(to bottom, #f5f6f8, #fffefe);
+      padding: 20px 8%;
+      -webkit-box-shadow: inset 0px 1px 3px  rgba(202,206,213,0.5);
+      box-shadow: inset 0px 1px 3px  rgba(202,206,213,0.5);
+    }
+
+    #reply {
+      background: #f7f7f7;
+      margin-bottom: 30px;
+    }
+
+   /* @media screen and (min-width: 640px) {
+      .padded {
+        padding: 50px;
+      }
+    }*/
+
+  </style>
+</head>
+
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+
+  <table class="body-wrap" align="center" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>
+
+        <!-- Meta and Header Container -->
+        <div class="container">
+
+          <table id="meta" width="100%" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center">Email not displaying correctly? <a href="*|ARCHIVE|*">View it in your browser.</a></td>
+            </tr>
+          </table>
+
+          <!-- Phuseletter header -->
+          <table id="header" width="100%" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td>
+                <img src="http://gallery.mailchimp.com/f3c964da333bc05836b767d3a/images/phuseletter.png" alt="Phuseletter" width="128" height="23">
+              </td>
+              <td mc:edit="pl-date" align="right">September <strong>2013</strong></td>
+            </tr>
+          </table>
+          <!-- /end Phuseletter header -->
+
+        </div>
+        <!-- /end Meta and Header Container -->
+
+        <!-- Main body Container -->
+        <div id="main" class="container shadowed">
+
+          <!-- Hero Section -->
+          <table id="hero" width="100%" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="64%" valign="top">
+                <div mc:edit="pl-header" class="padded text">
+                  <h1>Heading 1. <strong>More heading 1</strong></h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+              </td>
+              <td width="36%" valign="top" align="right">
+                <img mc:edit="hero-img" src="http://placehold.it/216x150" alt="">
+              </td>
+            </tr>
+          </table>
+          <!-- /end Hero Section -->
+
+          <!-- Main Section -->
+          <table id="content" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td>
+
+                <!-- Main Section Content -->
+                <div mc:edit="pl-body" class="padded text">
+
+                  <h2>Hey Phusers,</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, a, officia, sit asperiores recusandae minima non consequatur in temporibus ab dicta nihil illo distinctio nam dolorem omnis obcaecati earum vel?</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, nobis, quasi, tenetur natus dignissimos accusamus quisquam excepturi expedita fugiat eaque incidunt iusto maxime debitis mollitia maiores! Autem recusandae ut optio.</p>
+                  <blockquote>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga rerum maiores tempora quas? Quas, velit, expedita quo dolorem facere asperiores id veniam numquam quae quaerat pariatur illum deleniti temporibus explicabo!
+                  </blockquote>
+                  <img mc:edit="pl-sep1" align="center" class="separator" src="http://gallery.mailchimp.com/f3c964da333bc05836b767d3a/images/separator.png">
+                  <h2>Subheading</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, est, qui odit delectus inventore dicta dolores mollitia. Illum, modi, veritatis itaque debitis repudiandae fuga vitae deserunt dolores numquam voluptatibus harum!</p>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, quasi, ullam, itaque, atque aliquam iusto quos quibusdam fugit quisquam soluta.</li>
+                    <li>Laboriosam, nisi quos expedita modi natus vitae doloribus quidem est dolore unde cupiditate eos ducimus error commodi aliquam temporibus in fugiat sequi.</li>
+                  </ul>
+                  <img mc:edit="pl-sep2" align="center" class="separator" src="http://gallery.mailchimp.com/f3c964da333bc05836b767d3a/images/separator.png">
+                  <h2>Dribble Shots</h2>
+
+                  <table class="blogs" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top" width="16%" style="padding-bottom:20px;"><img src="http://placehold.it/60" alt=""></td>
+                      <td width="84%" class="padded-left">
+                        <h3><a href="http://dribbble.com/shots/1130358-Mobile-Menu">Mobile Menu</a></h3>
+                        <p>By Tom</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" width="16%"><img src="http://placehold.it/60" alt=""></td>
+                      <td width="84%" class="padded-left">
+                        <h3><a href="http://dribbble.com/shots/1130374-Profile-Update">Profile Update</a></h3>
+                        <p>By Nathan</p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <img mc:edit="pl-sep3" align="center" class="separator" src="http://gallery.mailchimp.com/f3c964da333bc05836b767d3a/images/separator.png">
+
+                  <h2>Blogs</h2>
+
+                  <table class="blogs" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top" width="16%" style="padding-bottom:20px;"><img src="http://placehold.it/60" alt=""></td>
+                      <td width="84%" class="padded-left">
+                        <h3><a href="http://dribbble.com/shots/1130358-Mobile-Menu">Mobile Menu</a></h3>
+                        <p>By Tom</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" width="16%"><img src="http://placehold.it/60" alt=""></td>
+                      <td width="84%" class="padded-left">
+                        <h3><a href="http://dribbble.com/shots/1130374-Profile-Update">Profile Update</a></h3>
+                        <p>By Nathan</p>
+                      </td>
+                    </tr>
+                  </table>
+
+                </div>
+                <div mc:edit="pl-signature" class="padded">
+                  <p>All the best from your friends</p>
+                  <h2>The Phuse Team</h2>
+                  <p class="team">James, Matt, Jenna, Tom, Tessa, Alexandra, Nathan &amp; Flip</p>
+                </div>
+                <!-- /end Main Section Content -->
+
+              </td>
+            </tr>
+          </table>
+          <!-- /end Main Section -->
+
+
+          <!-- Social Footer -->
+          <table id="social" width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="33%" align="center">
+                <a href="http://twitter.com/thephuse">
+                  <img width="30" height="31" src="http://gallery.mailchimp.com/9a8449791f91a990493820342/images/twitter.png" alt="Twitter">
+                </a>
+              </td>
+              <td width="33%" align="center">
+                <a href="http://facebook.com/thephuse">
+                  <img width="30" height="31" src="http://gallery.mailchimp.com/9a8449791f91a990493820342/images/facebook.png" alt="Facebook">
+                </a>
+              </td>
+              <td width="33%" align="center">
+                <a href="http://dribbble.com/thephuse">
+                  <img width="30" height="31" src="http://gallery.mailchimp.com/9a8449791f91a990493820342/images/dribbble.png" alt="Dribble">
+                </a>
+              </td>
+            </tr>
+          </table>
+          <!-- /end Social Footer -->
+
+        </div>
+        <!-- /end Main body Container -->
+
+      <!-- Email Us Section -->
+        <div class="container shadowed">
+          <table id="reply" width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <div mc:edit="pl-reply" class="padded text">
+                  <h2>Email us directly by replying to this email (even if it's just to say hi)</h2>
+                  <p>If, however, you have grander plans (idea for a new project has been itching at your brain, perhaps?) I encourage you to go to this page and fill out our project questionnaire. It’s targeted to help you get a grasp on the scope of your project, it only takes a few minutes, and you just might learn something valuable in the process.</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!-- /end Email Us Section -->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
