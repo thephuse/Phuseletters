@@ -122,7 +122,11 @@
       }
 
       .padded {
-        padding: 8%;
+        padding: 25px 8%;
+      }
+
+      .padded.text {
+        padding-bottom: 0;
       }
 
       .padded-left {
@@ -139,8 +143,10 @@
       }
 
       .separator {
+        width: 100%;
         margin-top: 10px;
         margin-bottom: 30px;
+        text-align: center;
       }
 
       .blogs {
@@ -211,8 +217,8 @@
         margin-bottom: 30px;
       }
 
-      #reply p {
-        margin-bottom: 0;
+      #signature {
+        padding-top: 10px;
       }
 
      /* @media screen and (min-width: 640px) {
@@ -330,7 +336,7 @@
 
                   <img mc:edit="pl-sep4" align="center" class="separator" src="http://gallery.mailchimp.com/f3c964da333bc05836b767d3a/images/separator.png">
 
-                  <div mc:edit="pl-signature" class="padded">
+                  <div mc:edit="pl-signature" id="signature" class="padded">
                     <p>All the best from your friends</p>
                     <h2>The Phuse Team</h2>
                     <p class="team">James, Matt, Jenna, Tom, Tessa, Alexandra, Nathan &amp; Flip</p>
