@@ -24,7 +24,8 @@
       }
 
       img {
-        max-width: 100%;
+        max-width: 100%!important;
+        height: auto!important;
       }
 
       h1,
@@ -125,10 +126,6 @@
         padding: 25px 8%;
       }
 
-      .padded.text {
-        padding-bottom: 0;
-      }
-
       .padded-left {
         padding-left: 8%;
       }
@@ -193,6 +190,10 @@
         background: #ffffff;
       }
 
+      #content .padded.text {
+        padding-bottom: 0;
+      }
+
       #social {
         background-color: #f5f6f8;
         background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f6f8), to(#fffefe));
@@ -211,6 +212,19 @@
 
       #signature {
         padding-top: 10px;
+      }
+
+      #mc-footer {
+        margin-bottom: 10px;
+      }
+
+      #mc-footer p {
+        margin-bottom: 5px;
+        font-size: 11px;
+      }
+
+      #mc-rewards {
+        margin-top: 15px;
       }
 
      /* @media screen and (min-width: 640px) {
@@ -380,6 +394,22 @@
             </table>
           </div>
           <!-- /end Email Us Section -->
+
+          <div class="container">
+
+            <table width="100%" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="center">
+                  <div id="mc-footer">
+                    <p><a href="*|UNSUB|*">Unsubscribe from this list </a></p>
+                    <p>*|LIST_ADDRESS|*</p>
+                    <p id="mc-rewards">*|IF:REWARDS|* *|REWARDS|* *|END:IF|*</p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+
+          </div>
 
         </td>
       </tr>
